@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "C/C++",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/msys64/ucrt64/include",
+                "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/*/include",
+                "C:/msys64/mingw64/include",
+                "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/*/include",
+                "C:/msys64/usr/include",
+                "C:/MinGW/include",
+                "C:/MinGW/lib/gcc/mingw32/*/include",
+                "C:/MinGW/lib/gcc/x86_64-w64-mingw32/*/include",
+                "${env:ProgramFiles}/mingw64/include",
+                "${env:ProgramFiles}/mingw-w64/x86_64-*/include",
+                "${env:ProgramFiles(x86)}/mingw64/include",
+                "${env:ProgramFiles(x86)}/mingw-w64/x86_64-*/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

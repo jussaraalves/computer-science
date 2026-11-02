@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run:c",
+            "type": "shell",
+            "command": "${workspaceFolder}\\scripts\\run-c.bat",
+            "args": [
+                "${workspaceFolder}\\un1\\listas-ligadas\\c\\find_element.c"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
