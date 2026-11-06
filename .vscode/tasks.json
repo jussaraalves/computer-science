@@ -6,12 +6,35 @@
             "type": "shell",
             "command": "${workspaceFolder}\\scripts\\run-c.bat",
             "args": [
-                "${workspaceFolder}\\un1\\listas-ligadas\\c\\find_element.c"
+                "${workspaceFolder}\\un1\\lista-duplamente-ligadas\\insert_beginning.c"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
             "problemMatcher": []
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe arquivo de build ativo",
+            "command": "C:/msys64/ucrt64/bin/gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "C:/msys64/ucrt64/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarefa gerada pelo Depurador."
         }
     ]
 }
